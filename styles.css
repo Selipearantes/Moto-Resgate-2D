@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#logo2d {
+    width: 200px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+nav {
+    width: 100%;
+    height: 65px;
+    background-color: #323231;
+    display: flex;
+    justify-content: end;
+    color: white;
+
+}
+
+#divnav {
+    margin-top: 4px;
+    padding: 17px;
+}
+
+.nav2 {
+    margin-right: 13px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 22px;
+}
+
+.img1 {
+    display: inline-block;
+    /* FOI CRIADA UMA CLASSE COM A IMG E A DIV DO TITULO PARA ALINHAR LADO A LADO */
+    box-sizing: border-box;
+    /* Para incluir padding e borda na largura definida */
+    vertical-align: top;
+    margin-top: 40px;
+    width: 440px;
+    border-radius: 50px;
+}
+
+#main1 {
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    width: 790px;
+    color: #323231;
+   
+}
+
+#titulo1 {
+    font-size: 70px;
+    font-family: 'Jockey One', sans-serif;
+}
+
+#titulo2 {
+    font-size: 40px;
+    margin-top: 1px;
+    font-family: 'Jockey One', sans-serif;
+}
+
+#logowhats {
+    width: 60px;
+    margin-right: 10px;
+}
+
+#button {
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: 120px;
+    border: none;
+    border-radius: 50px;
+    width: 550px;
+    height: 140px;
+    background: linear-gradient(#979797, rgb(88, 88, 88));
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 45px;
+
+}
+
+#button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(rgb(9, 255, 0), rgba(0, 255, 0, 0.945));
+}
+
+#titulo3 {
+    font-size: 20px;
+}
+
+#container {
+    text-align: center;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 440px) {
+      
+    #logo2d {
+        width: 190px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 120px;
+    
+    }
+
+    nav {
+         width: 100%;
+        height: 100px;
+        background-color: #323231;
+        display: flex;
+        justify-content: end;
+        color: white;
+
+    }
+
+    #divnav {
+        display: none;
+    }
+
+    .nav2 {
+        margin-right: 5px;
+        font-family: 'Jockey One', sans-serif;
+        font-size: 10px;
+    }
+
+    .img1 {
+        display: flex;
+        /* FOI CRIADA UMA CLASSE COM A IMG E A DIV DO TITULO PARA ALINHAR LADO A LADO */
+        box-sizing: border-box;
+        /* Para incluir padding e borda na largura definida */
+        flex-direction: column;
+        width: 340px;
+        border-radius: 50px;
+        margin-left: 45px; margin-bottom: 10px;
+
+    }
+
+    #main1 {  display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1px;
+        font-size: 12px;
+        width: 90%;
+        height: 90%;
+        color: #323231;
+        border: #323231 2px solid;
+        margin-left: 20px;
+        padding: 25px;
+    
+    }
+
+    #titulo1 {
+        font-size: 30px;
+        font-family: 'Jockey One', sans-serif;
+    }
+
+    #titulo2 {
+        font-size: 18px;
+        margin-top: 1px;
+        font-family: 'Jockey One', sans-serif;
+    }
+
+    #logowhats {
+        width: 30px;
+
+    }
+
+    #button {
+  width: 190px;
+  height: 60px;
+  font-size: 15px;
+  margin-left: 60px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+    }
+
+    #titulo3 {
+        font-size:12px;
+        width: 300px;
+    }
+
+    #container { text-align: center;
+        margin-top:0px;
+        align-items: center;
+       
+    }
+}
