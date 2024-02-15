@@ -15,7 +15,7 @@ body {
     width: 200px;
     position: absolute;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 140px;
 }
 
 nav {
@@ -25,49 +25,50 @@ nav {
     display: flex;
     justify-content: end;
     color: white;
-
 }
 
 #divnav {
     margin-top: 4px;
     padding: 17px;
+   
 }
 
 .nav2 {
     margin-right: 13px;
     font-family: 'Jockey One', sans-serif;
     font-size: 22px;
+    cursor: pointer;
 }
 
-.img1 {
-    margin-left: -45px;
+.img1 { position: relative;
+    margin-left: -100px;
     box-sizing: border-box;
-    width: 440px;
+    width:390px;
     border-radius: 50px;
+    border: 8px solid #323231; ;
 }
 
 #main1 {
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    width: 790px;
+    width: 690px;
     color: #D9D9D9;
-    padding: 20px;
+    padding:20px 90px 20px 20px;
     background: #323231;
-    height: 490px;
-    margin-top: 50px;
-
+    height: 440px;
+    margin: 40px auto;
+    
 }
 
 #titulo1 {
-    margin-top: 30px;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Jockey One', sans-serif;
 
 }
 
 #titulo2 {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 1px;
     font-family: 'Jockey One', sans-serif;
 }
@@ -78,12 +79,10 @@ nav {
 }
 
 #button {
-    margin-bottom: 50px;
-    margin-top: 40px;
-    margin-left: 120px;
+    margin: 30px auto;
     border: none;
     border-radius: 50px;
-    width: 550px;
+    width: 400px;
     height: 140px;
     background: #D9D9D9;
     color: #323231;
@@ -99,21 +98,22 @@ nav {
 }
 
 #button:hover {
-    transform: scale(1.1);
-    background: linear-gradient(rgb(8, 182, 2), rgb(13, 109, 0));
+    transform: scale(1.05);
+    background: linear-gradient(rgb(8, 182, 2), rgb(17, 104, 5));
+    color: white;
 }
 
 #titulo3 {
     font-size: 20px;
     width: 500px;
     margin: auto;
-    /* Isso centraliza a div horizontalmente */
     text-align: center;
 }
 
 #container {
     text-align: center;
-    margin: 150px;
+    margin-top: 150px;
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -121,11 +121,14 @@ nav {
     body {
         width: 100vw;
         height: 120vh;
+        margin-bottom: 50px;
     }
 
-    #logo2d {
-        width: 150px;
-         margin-left: 110px;
+    #logo2d { position: absolute;
+        top: 8%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0px;
     }
 
     nav {
@@ -133,9 +136,9 @@ nav {
         height: 110px;
         background-color: #323231;
         display: flex;
-        justify-content: center;
-        color: #323231;
         align-items: center;
+        color: #323231;
+    
     }
 
     #divnav {
@@ -150,11 +153,9 @@ nav {
 
     .img1 {
         display: flex;
-        /* FOI CRIADA UMA CLASSE COM A IMG E A DIV DO TITULO PARA ALINHAR LADO A LADO */
         box-sizing: border-box;
-        /* Para incluir padding e borda na largura definida */
         flex-direction: column;
-        width: 340px;
+        width: 350px;
         border-radius: 50px;
         margin: 0px auto;
     }
@@ -162,9 +163,8 @@ nav {
     #main1 {
         width: 350px;
         height: 280px;
-        margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        padding: 10px;
+        margin: 15px auto;
     }
 
     #titulo1 {
@@ -183,7 +183,7 @@ nav {
 
     #button {
         width: 80%;
-        height: 70px;
+        height: 50px;
         font-size: 20px;
         margin: 20px auto;
     }
@@ -195,5 +195,6 @@ nav {
     }
 #container {
     text-align: center;
-    margin: 10px auto 10px ;
+    margin-top: 0px;
+
 }}
