@@ -11,7 +11,7 @@
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 540px) {
 
 
     #logo2d {
@@ -41,13 +41,16 @@
         font-family: 'Jockey One', sans-serif;
         font-size: 10px;
     }
- #container { height: 100vh;}
+
+    #container {
+        height: 100vh;
+    }
+
     .img1 {
         display: flex;
         box-sizing: border-box;
         flex-direction: column;
         width: 90%;
-
         border-radius: 50px;
         margin: auto;
     }
@@ -62,7 +65,7 @@
     #titulo1 {
         font-size: 28px;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     #titulo2 {
