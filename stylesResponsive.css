@@ -21,10 +21,11 @@
 
     #logo2d {
         position: absolute; width: 180px;
-        top: 7%;
+        top: 6%;
         left: 50%;
         transform: translate(-50%, -50%);
         margin: 0px;
+        padding: 103px;
     }
 
     nav {
