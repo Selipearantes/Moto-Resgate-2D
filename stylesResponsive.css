@@ -1,3 +1,15 @@
+
+
+
+@media only screen and (max-width: 995px) {   .img1 {
+ display: none;
+} 
+#main1 {
+    width: 80%;
+    height: 480px;
+    padding: 10px;
+    margin: 20px auto;
+} }
 @media only screen and (max-width: 640px) {
 
     #logo2d {
@@ -32,16 +44,16 @@
         display: flex;
         box-sizing: border-box;
         flex-direction: column;
-        width: 350px;
+        width: 90%;
         border-radius: 50px;
-        margin: 0px auto;
+        margin:auto;
     }
 
     #main1 {
         width: 90%;
         height: 280px;
         padding: 10px;
-        margin: 15px auto;
+        margin: 20px auto;
     }
 
     #titulo1 {
@@ -76,7 +88,7 @@
 
     #container {
         text-align: center;
-        margin: 10px 0;
+        margin: 10px 0 0 0;
 
     }
 
@@ -96,7 +108,7 @@
         background-color: #D9D9D9;
         border-radius: 20px;
         width: 90%;
-        height: 513px;
+        height: 813px;
         margin: 10px 0;
         text-align: center;
         align-items: center;
@@ -104,7 +116,7 @@
     }
 
     #mainResposive {
-        margin-top: 100px;
+        margin-top: 40px;
     }
 
     .h1Pag2 {
@@ -115,7 +127,7 @@
 
     .itensMain {
         margin-top: 5px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         border-radius: 20px;
     }
 
@@ -130,3 +142,5 @@
     }
     #mainSpace { margin: 0 0 90px; }
 }
+
+
