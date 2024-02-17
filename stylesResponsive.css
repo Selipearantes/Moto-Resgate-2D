@@ -50,7 +50,7 @@
 
     #container {
         height: 100%;
-        padding: 40px;
+        padding: 25px 40px;
     }
 
     .img1 {
@@ -120,7 +120,7 @@
         background-color: #D9D9D9;
         border-radius: 20px;
         width: 100%;
-        margin: 12px 0;
+        margin: 20px 0;
         text-align: center;
         align-items: center;
         padding: 15px;
