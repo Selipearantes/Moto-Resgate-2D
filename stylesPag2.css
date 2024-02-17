@@ -28,11 +28,12 @@
     font-family: 'Jockey One', sans-serif;
     font-size: 30px;
     color: #323231;
+    margin-top: 20px;
 }
 
 .itensMain {
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     border-radius: 20px;
 }
 
@@ -45,5 +46,4 @@
     color: #D9D9D9;
     font-size: 24px;
     cursor: pointer;
-    margin-top: 2px;
 }
