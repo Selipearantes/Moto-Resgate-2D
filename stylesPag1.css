@@ -28,7 +28,8 @@ nav {
 }
 
 a {
-    text-decoration: none; /*  PARA TIRAR A LINHA DO A */
+    text-decoration: none; 
+    color: #D9D9D9;/*  PARA TIRAR A LINHA DO A */
 }
 
 a:visited {
