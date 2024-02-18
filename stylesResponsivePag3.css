@@ -1,17 +1,18 @@
 @media only screen and (max-width: 540px) {
     #sectionPag3 {
-        height: 307vh;
         display: flex;
+        height: 335vh;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 60px 22px;
+        padding: 10px;
+        flex-direction: column;
     }
 
     .imgPag3 {
         width: 90%;
         border-radius: 20px;
-        margin: 5px 0;
+        margin: 0 0 20px;
         border: #d9d9d9 5px solid;
         transition: transform(1.2);
 
@@ -24,8 +25,7 @@
     #mainPag3 {
         background-color: #323231;
         width: 90%;
-        height: 100%;
-        padding: 0px;
+        padding: 10px;
         border-radius: 20px;
 
     }
@@ -39,10 +39,11 @@
 
     .logoPg3 {
         width: 250px;
-        margin-bottom: 20px;
+
     }
 
     #fraseFinalFotos {
+        padding: 5px 20px 40px 20px;
         margin-top: 30px;
         font-size: 30px;
         font-family: 'Jockey One', sans-serif;
@@ -56,5 +57,6 @@
         margin-top: 40px;
         margin-left: 20px;
         animation: floatAnimation 2s infinite;
+ 
     }
 }
