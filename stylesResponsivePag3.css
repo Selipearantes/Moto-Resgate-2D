@@ -1,0 +1,39 @@
+@media only screen and (max-width: 540px) {
+    #sectionPag3 {
+        height: 268vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .imgPag3 {
+        width: 90%;
+        border-radius: 20px;
+        margin: 0px;
+        border: #d9d9d9 5px solid;
+        transition: transform(1.2);
+
+    }
+
+    .imgPag3:hover {
+        transform: scale(1.08);
+    }
+
+    #mainPag3 {
+        background-color: #323231;
+        width: 90%;
+        height: 100%;
+        padding: 0px;
+        border-radius: 20px;
+
+    }
+
+    #tituloPag3 {
+        margin-bottom: 10px;
+        font-family: 'Jockey One', sans-serif;
+        font-size: 34px;
+        color: #d9d9d9;
+    }
+}

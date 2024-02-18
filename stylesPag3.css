@@ -1,0 +1,35 @@
+#sectionPag3 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imgPag3 {
+    width: 250px;
+    border-radius: 40px;
+    margin: 5px;
+    border: #d9d9d9 5px solid;
+    transition: transform(1.2);
+
+}
+
+.imgPag3:hover {
+    transform: scale(1.08);
+}
+
+#mainPag3 {
+    background-color: #323231;
+    width: 60%;
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+#tituloPag3 {
+    margin-bottom: 10px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 34px;
+    color: #d9d9d9;
+}
