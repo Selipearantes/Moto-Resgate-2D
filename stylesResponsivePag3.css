@@ -1,11 +1,11 @@
 @media only screen and (max-width: 540px) {
     #sectionPag3 {
-        height: 268vh;
+        height: 330vh;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 40px 22px;
+        padding: 70px 22px;
     }
 
     .imgPag3 {
@@ -35,5 +35,26 @@
         font-family: 'Jockey One', sans-serif;
         font-size: 34px;
         color: #d9d9d9;
+    }
+
+    .logoPg3 {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    #fraseFinalFotos {
+        margin-top: 30px;
+        font-size: 30px;
+        font-family: 'Jockey One', sans-serif;
+        font-style: italic;
+        color: #323231;
+    }
+
+    #novaImg {
+        width: 70px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 20px;
+        animation: floatAnimation 2s infinite;
     }
 }
