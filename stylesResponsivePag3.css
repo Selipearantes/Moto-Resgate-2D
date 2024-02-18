@@ -1,11 +1,11 @@
 @media only screen and (max-width: 540px) {
     #sectionPag3 {
-        height: 330vh;
+        height: 307vh;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 70px 22px;
+        padding: 60px 22px;
     }
 
     .imgPag3 {
